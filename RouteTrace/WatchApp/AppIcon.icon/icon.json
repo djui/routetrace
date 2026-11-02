@@ -1,23 +1,15 @@
 {
   "fill" : {
-    "linear-gradient" : [
-      "srgb:0.11765,0.15686,0.21961,1.00000",
-      "srgb:0.02745,0.03529,0.05490,1.00000"
-    ],
-    "orientation" : {
-      "start" : {
-        "x" : 0.5,
-        "y" : 0
-      },
-      "stop" : {
-        "x" : 0.5,
-        "y" : 1
-      }
-    }
+    "solid" : "srgb:0.04314,0.04314,0.04706,1.00000"
   },
   "groups" : [
     {
       "layers" : [
+        {
+          "glass" : true,
+          "image-name" : "Arrow.svg",
+          "name" : "Arrow"
+        },
         {
           "glass" : true,
           "image-name" : "Dot.svg",
@@ -27,11 +19,6 @@
           "glass" : true,
           "image-name" : "Ring.svg",
           "name" : "Ring"
-        },
-        {
-          "glass" : true,
-          "image-name" : "Wedge.svg",
-          "name" : "Wedge"
         }
       ],
       "name" : "Marker",
@@ -48,8 +35,18 @@
       "layers" : [
         {
           "glass" : true,
+          "image-name" : "Start.svg",
+          "name" : "Start"
+        },
+        {
+          "glass" : true,
           "image-name" : "Track.svg",
           "name" : "Track"
+        },
+        {
+          "glass" : true,
+          "image-name" : "Finish.svg",
+          "name" : "Finish"
         },
         {
           "glass" : true,
